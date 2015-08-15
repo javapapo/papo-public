@@ -3,6 +3,10 @@
 echo "Installing apps with brew and cask "
 echo "version 1.0 by javapapo@mac.com date: 15/08/2015"
 
+echo "Updating app lists"
+brew update
+brew cask update
+
 echo "Brew  apps"
 
 brew install maven
