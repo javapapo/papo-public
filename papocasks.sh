@@ -19,11 +19,20 @@ brew cask install java
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install sourcetree # git client
+brew cask install github-desktop #github desktop client
 brew cask install slack #collaboration tool
 brew cask install sublime-text #text editor
 brew cask install mongodb #mongo db
 brew cask install robomongo #client for mongodb
+brew cask install squirrel #sql db client
+brew cask install jd-gui #java decompiler
 
+
+#Containers /vms and stuff
+brew cask install dockertoolbox
+brew cask install vagrant
+brew cask install vagrant-manager #excellent GUI app for vagrant
+brew cask install packer
 
 #Browsers
 brew cask install firefox
@@ -40,6 +49,7 @@ brew cask install libreoffice
 brew cask install dockertoolbox
 brew cask install vagrant
 brew cask install vagrant-manager #excellent GUI app for vagrant
+brew cask install packer
 
 #Instant Messengers
 brew cask install adium
