@@ -33,11 +33,6 @@ brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 
 
-#Containers /vms and stuff
-brew cask install dockertoolbox
-brew cask install vagrant
-brew cask install vagrant-manager #excellent GUI app for vagrant
-brew cask install packer
 
 #Browsers
 brew cask install firefox
@@ -51,10 +46,10 @@ brew cask install thunderbird
 brew cask install libreoffice
 
 #Containers and stuff
-brew cask install dockertoolbox
-brew cask install vagrant
+brew cask install dockertoolbox #all the required docker stuff
+brew cask install vagrant #vagrant vm provisioning
 brew cask install vagrant-manager #excellent GUI app for vagrant
-brew cask install packer
+brew cask install packer #tool to create vms 
 
 #Instant Messengers
 brew cask install skype
