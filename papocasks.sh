@@ -77,5 +77,9 @@ brew cask install appcleaner #install/ uninstall for mac
 brew cask install vlc
 brew cask install mplayerx
 
+#book readers
+brew cask install kindle
+
+
 #remote control
 brew cask install teamviewer
