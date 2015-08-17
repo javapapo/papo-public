@@ -32,6 +32,11 @@ brew cask install squirrel #sql db client
 brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 
+#Containers and stuff
+brew cask install dockertoolbox #all the required docker stuff
+brew cask install vagrant #vagrant vm provisioning
+brew cask install vagrant-manager #excellent GUI app for vagrant
+brew cask install packer #tool to create vms 
 
 
 #Browsers
@@ -42,14 +47,11 @@ brew cask install google-chrome
 brew cask install dropbox
 brew cask install google-drive
 
-brew cask install thunderbird
+#Office stuff
 brew cask install libreoffice
 
-#Containers and stuff
-brew cask install dockertoolbox #all the required docker stuff
-brew cask install vagrant #vagrant vm provisioning
-brew cask install vagrant-manager #excellent GUI app for vagrant
-brew cask install packer #tool to create vms 
+#Email clients
+brew cask install thunderbird
 
 #Instant Messengers
 brew cask install skype
@@ -58,20 +60,19 @@ brew cask install adium
 #torrent client
 brew cask install utorrent #mtorrent
 
-#subs 
+#subtitles
 brew cask install subtitles
-
 
 #game Section
 brew cask install battle-net #I need to play wow
 brew cask install wowmatrix #to install addons to wow!
 brew cask install steam #steam client
 
-
 #macosx specific
 brew cask install alfred #of course alfred!
 brew cask install menumeters #menu meters for mac
 brew cask install appcleaner #install/ uninstall for mac
+brew cask install karabiner #keyboard -shortcut manager for mac
 
 #media players
 brew cask install vlc
