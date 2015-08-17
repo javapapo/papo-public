@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing apps with brew and cask "
-echo "version 1.0 by javapapo@mac.com date: 15/08/2015"
+echo "version 2.0 by javapapo@mac.com date: 17/08/2015"
 
 echo "Updating app lists"
 brew update
