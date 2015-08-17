@@ -72,7 +72,7 @@ brew cask install steam #steam client
 
 
 #macosx specific
-brew cask install alfre #of course alfred!
+brew cask install alfred #of course alfred!
 brew cask install menumeters #menu meters for mac
 brew cask install appcleaner #install/ uninstall for mac
 
