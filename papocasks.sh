@@ -30,6 +30,7 @@ brew cask install mongodb #mongo db
 brew cask install robomongo #client for mongodb
 brew cask install squirrel #sql db client
 brew cask install jd-gui #java decompiler
+brew cask install fish #shell very nice!
 
 
 #Containers /vms and stuff
