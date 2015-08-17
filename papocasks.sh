@@ -31,6 +31,7 @@ brew cask install robomongo #client for mongodb
 brew cask install squirrel #sql db client
 brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
+brew cask install iterm2
 
 #Containers and stuff
 brew cask install dockertoolbox #all the required docker stuff
@@ -80,7 +81,6 @@ brew cask install mplayerx
 
 #book readers
 brew cask install kindle
-
 
 #remote control
 brew cask install teamviewer
