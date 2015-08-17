@@ -57,6 +57,7 @@ brew cask install vagrant-manager #excellent GUI app for vagrant
 brew cask install packer
 
 #Instant Messengers
+brew cask install skype
 brew cask install adium
 
 #torrent client
