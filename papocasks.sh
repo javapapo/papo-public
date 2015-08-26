@@ -7,11 +7,6 @@ echo "Updating app lists"
 brew update
 brew cask update
 
-echo "Brew  apps"
-
-brew install maven
-brew install ant
-brew install gradle
 
 echo "Cask apps"
 
@@ -20,6 +15,9 @@ brew cask install keka #zip/unzip and much more
 
 #dev stuff
 brew cask install java
+brew install maven
+brew install ant
+brew install gradle
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install sourcetree # git client
