@@ -23,6 +23,7 @@ brew cask install keka #zip/unzip and much more
 
 #dev stuff
 brew cask install java
+brew install go
 brew install maven
 brew install ant
 brew install gradle
