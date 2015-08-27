@@ -1,12 +1,15 @@
 #!/bin/bash
+
+
+echo "Installing apps with brew and cask "
+echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
+
+
 echo "Installing brew "
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing Cask "
 brew install caskroom/cask/brew-cask
-
-echo "Installing apps with brew and cask "
-echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
 
 echo "Updating app lists"
 brew update
@@ -62,6 +65,7 @@ brew cask install adium
 
 #torrent client
 brew cask install utorrent #mtorrent
+brew cask install spotify
 
 #subtitles
 brew cask install subtitles
