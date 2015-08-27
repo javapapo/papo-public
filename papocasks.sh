@@ -1,4 +1,9 @@
 #!/bin/bash
+echo "Installing brew "
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo "Installing Cask "
+brew install caskroom/cask/brew-cask
 
 echo "Installing apps with brew and cask "
 echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
@@ -26,7 +31,6 @@ brew cask install slack #collaboration tool
 brew cask install sublime-text #text editor
 brew cask install mongodb #mongo db
 brew cask install robomongo #client for mongodb
-brew cask install squirrel #sql db client
 brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 brew cask install iterm2
