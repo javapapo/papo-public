@@ -1,5 +1,7 @@
 #set my main path for things so I dont have to change (work/home)
 MAIN_PATH=/Volumes/ssd
+KUBE_PATH=$MAIN_PATH/kubernetes/102
+
 
 
 #making Java8 as our default java for the system
@@ -15,13 +17,19 @@ export VAGRANT_HOME=$MAIN_PATH/vagrant-images/vagrant_home
 export KUBERNETES_PROVIDER=vagrant
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 #KUBECTL_PATH
-export KUBECTL=$MAIN_PATH/kubernetes/102/platforms/darwin/amd64/
+export KUBECTL=$KUBE_PATH/platforms/darwin/amd64/
 
 #go
 export GOPATH=~/go
+#set docker env 
+eval "$(docker-machine env default 2>/dev/null)"
+
 
 #PATH
 export PATH=/usr/local/git/bin/:$KUBECTL:$PATH
+
+
+
 
 #ALIASES
 
@@ -51,8 +59,6 @@ alias caskdoctor='brew cask doctor '
 #DOCKER
 alias docker_remove_all_images='docker rmi $(docker images -q)'
 alias docker_remove_all_untagged='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
-# $(boot2docker shellinit 2>/dev/null)
-eval "$(docker-machine env default 2>/dev/null)"
 
 #VAGRANT
 alias vagrantstatus='vagrant global-status'
