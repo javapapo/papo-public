@@ -1,9 +1,10 @@
 #!/bin/bash
+echo "Enable show hidden files"
 
+defaults write com.apple.finder AppleShowAllFiles YES
 
 echo "Installing apps with brew and cask "
 echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
-
 
 echo "Installing brew "
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
