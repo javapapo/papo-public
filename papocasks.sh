@@ -3,6 +3,10 @@ echo "Enable show hidden files"
 
 defaults write com.apple.finder AppleShowAllFiles YES
 
+echo "Enable Cut in Finder"
+
+defaults write com.apple.finder AllowCutForItems YES
+
 echo "Installing apps with brew and cask "
 echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
 
