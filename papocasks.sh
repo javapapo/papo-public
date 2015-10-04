@@ -1,11 +1,13 @@
 #!/bin/bash
-echo "Enable show hidden files"
+echo "******************************************************"
 
+echo "Enable show hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
 
 echo "Enable Cut in Finder"
-
 defaults write com.apple.finder AllowCutForItems YES
+
+echo "******************************************************"
 
 echo "Installing apps with brew and cask "
 echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
@@ -20,13 +22,15 @@ echo "Updating app lists"
 brew update
 brew cask update
 
-
 echo "Cask apps"
-
 brew cask install the-unarchiver #uzip and stuff
 brew cask install keka #zip/unzip and much more
 
 #dev stuff
+
+#GNU core utils
+brew install coreutils
+brew install wget
 brew cask install java
 brew install go
 brew install maven
