@@ -21,14 +21,14 @@ export KUBECTL=$KUBE_PATH/platforms/darwin/amd64/
 
 #go
 export GOPATH=~/go
+export GOROOT=/usr/local/opt/go/libexec/bin
+
 #set docker env 
 eval "$(docker-machine env default 2>/dev/null)"
 
 
 #PATH
-export PATH=/usr/local/git/bin/:$KUBECTL:$PATH
-
-
+export PATH=/usr/local/git/bin/:$KUBECTL:$GOROOT:$PATH
 
 
 #ALIASES
