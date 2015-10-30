@@ -39,6 +39,7 @@ brew install gradle
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install sourcetree # git client
+brew cask install diffmerge #use along with sourcetree
 brew cask install github-desktop #github desktop client
 brew cask install slack #collaboration tool
 brew cask install sublime-text #text editor
