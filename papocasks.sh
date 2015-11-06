@@ -31,6 +31,7 @@ brew cask install keka #zip/unzip and much more
 #GNU core utils
 brew install coreutils
 brew install wget
+brew install mackup
 brew cask install java
 brew install go
 brew install maven
