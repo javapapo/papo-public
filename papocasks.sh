@@ -37,6 +37,7 @@ brew install go
 brew install maven
 brew install ant
 brew install gradle
+rew install asciinema #record terminal sessions
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install sourcetree # git client
