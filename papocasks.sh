@@ -58,7 +58,8 @@ brew cask install vagrant #vagrant vm provisioning
 brew cask install vagrant-manager #excellent GUI app for vagrant
 brew cask install packer #tool to create vms 
 
-
+#kodi-raspberry
+brew cask install applepi-baker
 #Browsers
 brew cask install firefox
 brew cask install google-chrome
