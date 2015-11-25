@@ -79,8 +79,11 @@ brew cask install skype
 brew cask install adium
 
 #torrent client
-brew cask install utorrent #mtorrent
+brew cask install utorrent
 brew cask install spotify
+
+#anti malware
+brew cask install malwarebytes-anti-malware 
 
 #subtitles
 brew cask install subtitles
