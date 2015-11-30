@@ -108,3 +108,9 @@ brew cask install kindle
 
 #remote control
 brew cask install teamviewer
+
+
+
+#SDKMAN
+curl -s get.sdkman.io | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
