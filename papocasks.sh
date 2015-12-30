@@ -50,6 +50,7 @@ brew cask install mongodb #mongo db
 brew cask install robomongo #client for mongodb
 brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
+brew cask install flux #control the screen contrast/brightness over the day
 brew cask install iterm2
 
 #Containers and stuff
