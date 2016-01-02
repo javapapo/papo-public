@@ -29,16 +29,15 @@ brew cask install keka #zip/unzip and much more
 #dev stuff
 
 #GNU core utils
+brew cask install java
 brew install coreutils
 brew install wget
 brew install mackup
-brew cask install java
 brew install go
 brew install maven
 brew install ant
 brew install gradle
-rew install asciinema #record terminal sessions
-brew cask install flux #screen related app to dim the light
+brew install asciinema #record terminal sessions
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install sourcetree # git client
