@@ -38,6 +38,7 @@ brew install maven
 brew install ant
 brew install gradle
 brew install asciinema #record terminal sessions
+brew install httpie
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install sourcetree # git client
@@ -51,6 +52,7 @@ brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 brew cask install flux #control the screen contrast/brightness over the day
 brew cask install iterm2
+
 
 #Containers and stuff
 brew cask install dockertoolbox #all the required docker stuff
