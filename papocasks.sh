@@ -10,7 +10,7 @@ defaults write com.apple.finder AllowCutForItems YES
 echo "******************************************************"
 
 echo "Installing apps with brew and cask "
-echo "version 2.0 by javapapo@mac.com date: 25.08.2015"
+echo "version 2.0 by javapapo@mac.com date: 15.02.2016"
 
 echo "Installing brew "
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -32,7 +32,6 @@ brew cask install keka #zip/unzip and much more
 brew cask install java
 brew install coreutils
 brew install wget
-brew install mackup
 brew install go
 brew install maven
 brew install ant
@@ -111,8 +110,3 @@ brew cask install kindle
 #remote control
 brew cask install teamviewer
 
-
-
-#SDKMAN
-curl -s get.sdkman.io | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
