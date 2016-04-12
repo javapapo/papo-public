@@ -66,6 +66,8 @@ brew cask install applepi-baker
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-photos-backup
+brew cask install torbrowser
+
 
 # Cloud drives
 brew cask install dropbox
