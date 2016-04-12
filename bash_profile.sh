@@ -25,6 +25,8 @@ export PATH=/usr/local/git/bin/:$KUBECTL:$GOROOT:$PATH
 
 # -------- ALIASES ----------------------------- #
 
+#BREW
+alias brewupdateall='brew update;brew upgrade;brew cask update;brew cask cleanup'
 #JAVA
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 alias java7='export JAVA_HOME=$JAVA_7_HOME'
