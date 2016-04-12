@@ -45,6 +45,7 @@ brew cask install diffmerge #use along with sourcetree
 brew cask install github-desktop #github desktop client
 brew cask install slack #collaboration tool
 brew cask install sublime-text #text editor
+brew cask install macdown #markdown
 brew cask install mongodb #mongo db
 brew cask install robomongo #client for mongodb
 brew cask install jd-gui #java decompiler
