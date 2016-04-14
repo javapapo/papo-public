@@ -36,6 +36,7 @@ brew install go
 brew install maven
 brew install ant
 brew install gradle
+brew install jq #json command line
 brew install asciinema #record terminal sessions
 brew install httpie
 brew cask install intellij-idea
