@@ -41,3 +41,8 @@ alias docker_remove_all_untagged='docker rmi $(docker images | grep "^<none>" | 
 
 #VAGRANT
 alias vagrantstatus='vagrant global-status'
+
+#maven
+alias java8project='mvn archetype:generate -B \
+ -DarchetypeGroupId=pl.org.miki -DarchetypeArtifactId=java8-quickstart-archetype -DarchetypeVersion=1.0.0 \
+ -DgroupId=com.javapapo -DartifactId=demoproj -Dversion=1.0 -Dpackage=com.javapapo.demoproj -DtestLibrary=junit'
