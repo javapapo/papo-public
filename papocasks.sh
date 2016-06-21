@@ -57,7 +57,6 @@ brew cask install iterm2
 
 
 #Containers and stuff
-brew cask install dockertoolbox #all the required docker stuff
 brew cask install vagrant #vagrant vm provisioning
 brew cask install vagrant-manager #excellent GUI app for vagrant
 brew cask install packer #tool to create vms 
