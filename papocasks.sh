@@ -81,11 +81,12 @@ brew cask install libreoffice
 #Instant Messengers
 brew cask install skype
 brew cask install adium
-
+brew cask install whatsapp
+brew cask install goofy #facebook
+ 
 #torrent client
 brew cask install utorrent
 brew cask install spotify
-brew cask install goofy
 
 #anti malware
 brew cask install malwarebytes-anti-malware 
