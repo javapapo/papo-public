@@ -20,6 +20,7 @@ brew install caskroom/cask/brew-cask
 
 echo "Updating app lists"
 brew update
+brew upgrade
 brew cask update
 
 echo "Cask apps"
@@ -63,6 +64,7 @@ brew cask install packer #tool to create vms
 
 #kodi-raspberry
 brew cask install applepi-baker
+
 #Browsers
 brew cask install firefox
 brew cask install google-chrome
@@ -77,8 +79,6 @@ brew cask install google-drive
 #Office stuff
 brew cask install libreoffice
 
-#Email clients
-brew cask install thunderbird
 
 #Instant Messengers
 brew cask install skype
@@ -87,6 +87,7 @@ brew cask install adium
 #torrent client
 brew cask install utorrent
 brew cask install spotify
+brew cask install goofy
 
 #anti malware
 brew cask install malwarebytes-anti-malware 
@@ -114,4 +115,5 @@ brew cask install kindle
 
 #remote control
 brew cask install teamviewer
+brew cask install screenhero
 
