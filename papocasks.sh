@@ -41,7 +41,6 @@ brew install jq #json command line
 brew install asciinema #record terminal sessions
 brew install httpie
 brew cask install intellij-idea
-brew cask install eclipse-java
 brew cask install sourcetree # git client
 brew cask install diffmerge #use along with sourcetree
 brew cask install github-desktop #github desktop client
@@ -90,6 +89,7 @@ brew cask install goofy
 
 #anti malware
 brew cask install malwarebytes-anti-malware 
+brew cask install onyx
 
 #subtitles
 brew cask install subtitles
