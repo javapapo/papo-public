@@ -22,6 +22,8 @@ export PATH=/usr/local/git/bin/:$KUBECTL:$GOROOT:$PATH
 # -------- ALIASES ----------------------------- #
 #git
 alias gitlog='git log --oneline --graph'
+alias gitgc='git gc --agreesive'
+alias gitprune='git prune'
 
 #BREW
 alias brewupdate='brew update;brew upgrade;brew cask update;brew cask cleanup'
