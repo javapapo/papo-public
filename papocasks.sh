@@ -23,13 +23,13 @@ brew update
 brew upgrade
 brew cask update
 
-echo "Cask apps"
+
+brew install duti #changes default file permi
+
 brew cask install the-unarchiver #uzip and stuff
 brew cask install keka #zip/unzip and much more
 
 #dev stuff
-
-#GNU core utils
 brew cask install java
 brew install coreutils
 brew install wget
@@ -53,7 +53,7 @@ brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 brew cask install flux #control the screen contrast/brightness over the day
 brew cask install iterm2
-
+brew install wrk # HTTP benchmarking tool
 
 #Containers and stuff
 brew cask install vagrant #vagrant vm provisioning
@@ -69,14 +69,12 @@ brew cask install google-chrome
 brew cask install google-photos-backup
 brew cask install torbrowser
 
-
 # Cloud drives
 brew cask install dropbox
 brew cask install google-drive
 
 #Office stuff
 brew cask install libreoffice
-
 
 #Instant Messengers
 brew cask install skype
@@ -116,4 +114,6 @@ brew cask install kindle
 #remote control
 brew cask install teamviewer
 brew cask install screenhero
+
+brew cleanup;
 
