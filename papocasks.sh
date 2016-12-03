@@ -34,6 +34,7 @@ brew cask install keka #zip/unzip and much more
 
 #dev stuff
 brew cask install java
+brew install tree
 brew install coreutils
 brew install wget
 brew install go
