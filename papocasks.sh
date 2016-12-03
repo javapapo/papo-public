@@ -10,10 +10,14 @@ defaults write com.apple.finder AllowCutForItems YES
 echo "******************************************************"
 
 echo "Installing apps with brew and cask "
-echo "version 2.0 by javapapo@mac.com date: 15.02.2016"
+echo "version 2.0 by javapapo@mac.com date: 03.12.2016"
 
-echo "Installing brew "
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if [ ! -x /usr/local/bin/brew ]; then
+    echo "installing homebrew"
+    /usr/bin/env ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+    echo "homebrew is installed"
+fi
 
 echo "Installing Cask "
 brew install caskroom/cask/brew-cask
@@ -23,8 +27,7 @@ brew update
 brew upgrade
 brew cask update
 
-
-brew install duti #changes default file permi
+brew install duti #changes default file permissions
 
 brew cask install the-unarchiver #uzip and stuff
 brew cask install keka #zip/unzip and much more
@@ -89,6 +92,7 @@ brew cask install spotify
 #anti malware
 brew cask install malwarebytes-anti-malware 
 brew cask install onyx
+brew cask install 1password
 
 #subtitles
 brew cask install subtitles
