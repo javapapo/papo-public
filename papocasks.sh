@@ -119,6 +119,7 @@ brew cask install kindle
 #remote control
 brew cask install teamviewer
 brew cask install screenhero
+brew cask install whatsapp
 
 brew cleanup;
 
