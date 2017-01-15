@@ -27,6 +27,7 @@ brew update
 brew upgrade
 brew cask update
 
+brew install bash #v4
 brew install duti #changes default file permissions
 
 brew cask install the-unarchiver #uzip and stuff
@@ -63,6 +64,8 @@ brew install wrk # HTTP benchmarking tool
 brew cask install vagrant #vagrant vm provisioning
 brew cask install vagrant-manager #excellent GUI app for vagrant
 brew cask install packer #tool to create vms 
+brew cask install virtualbox #tool to create vms 
+
 
 #kodi-raspberry
 brew cask install applepi-baker
@@ -122,4 +125,7 @@ brew cask install screenhero
 brew cask install whatsapp
 
 brew cleanup;
+brew cask cleanup;
+
+chsh -s /usr/local/bin/bash;  #change to bash4, remember to add it to iTerm `/usr/local/bin/bash --login`
 

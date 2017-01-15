@@ -3,7 +3,6 @@
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 export JAVA_7_HOME=$(/usr/libexec/java_home -v1.7)
 export JAVA_6_HOME=$(/usr/libexec/java_home -v1.6)
-
 export JAVA_HOME=$JAVA_8_HOME
 
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
@@ -23,7 +22,7 @@ alias gitgc='git gc --agreesive'
 alias gitprune='git prune'
 
 #BREW
-alias brewupdateall='brew update;brew upgrade;brew cask update;brew cask cleanup'
+alias brewupdateall='brew update;brew upgrade;brew cask update;brew cask cleanup;brew doctor'
 
 #JAVA
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
