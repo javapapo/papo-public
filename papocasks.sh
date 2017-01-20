@@ -45,6 +45,8 @@ brew install gradle
 brew install jq #json command line
 brew install asciinema #record terminal sessions
 brew install httpie
+brew install wrk # HTTP benchmarking tool
+
 brew cask install intellij-idea
 brew cask install sourcetree # git client
 brew cask install diffmerge #use along with sourcetree
@@ -58,7 +60,7 @@ brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 brew cask install flux #control the screen contrast/brightness over the day
 brew cask install iterm2
-brew install wrk # HTTP benchmarking tool
+brew cask install postman # rest client
 
 #Containers and stuff
 brew cask install vagrant #vagrant vm provisioning
