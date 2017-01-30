@@ -10,7 +10,6 @@ defaults write com.apple.finder AllowCutForItems YES
 echo "******************************************************"
 
 echo "Installing apps with brew and cask "
-echo "version 2.0 by javapapo@mac.com date: 03.12.2016"
 
 if [ ! -x /usr/local/bin/brew ]; then
     echo "installing homebrew"
@@ -25,7 +24,6 @@ brew install caskroom/cask/brew-cask
 echo "Updating app lists"
 brew update
 brew upgrade
-brew cask update
 
 brew install bash #v4
 brew install duti #changes default file permissions
@@ -61,13 +59,13 @@ brew cask install fish #shell very nice!
 brew cask install flux #control the screen contrast/brightness over the day
 brew cask install iterm2
 brew cask install postman # rest client
+brew cask install docker
 
 #Containers and stuff
 brew cask install vagrant #vagrant vm provisioning
 brew cask install vagrant-manager #excellent GUI app for vagrant
 brew cask install packer #tool to create vms 
 brew cask install virtualbox #tool to create vms 
-
 
 #kodi-raspberry
 brew cask install applepi-baker
@@ -113,6 +111,7 @@ brew cask install alfred #of course alfred!
 brew cask install menumeters #menu meters for mac
 brew cask install appcleaner #install/ uninstall for mac
 brew cask install karabiner #keyboard -shortcut manager for mac
+brew cask install captur
 
 #media players
 brew cask install vlc
