@@ -1,10 +1,5 @@
 
 #making Java8 as our default java for the system
-export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
-export JAVA_7_HOME=$(/usr/libexec/java_home -v1.7)
-export JAVA_6_HOME=$(/usr/libexec/java_home -v1.6)
-export JAVA_HOME=$JAVA_8_HOME
-
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
 #go
@@ -25,9 +20,7 @@ alias gitprune='git prune'
 alias brewupdateall='brew update;brew upgrade;brew cask update;brew cask cleanup;brew doctor'
 
 #JAVA
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-alias java7='export JAVA_HOME=$JAVA_7_HOME'
-alias java6='export JAVA_HOME=$JAVA_6_HOME'
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 #DOCKER
 alias docker_remove_all_images='docker rmi $(docker images -q)'

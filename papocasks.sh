@@ -39,6 +39,7 @@ brew install wget
 brew install go
 brew install maven
 brew install ant
+brew install jenv
 brew install gradle
 brew install jq #json command line
 brew install asciinema #record terminal sessions
