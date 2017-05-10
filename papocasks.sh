@@ -53,8 +53,6 @@ brew cask install github-desktop #github desktop client
 brew cask install slack #collaboration tool
 brew cask install sublime-text #text editor
 brew cask install macdown #markdown
-brew cask install mongodb #mongo db
-brew cask install robomongo #client for mongodb
 brew cask install jd-gui #java decompiler
 brew cask install fish #shell very nice!
 brew cask install flux #control the screen contrast/brightness over the day
