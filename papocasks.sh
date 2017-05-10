@@ -48,6 +48,7 @@ brew install wrk # HTTP benchmarking tool
 
 brew cask install intellij-idea
 brew cask install sourcetree # git client
+brew cask install tower
 brew cask install diffmerge #use along with sourcetree
 brew cask install github-desktop #github desktop client
 brew cask install slack #collaboration tool
@@ -59,6 +60,7 @@ brew cask install flux #control the screen contrast/brightness over the day
 brew cask install iterm2
 brew cask install postman # rest client
 brew cask install docker
+brew install kubectl # kubernetes
 
 #Containers and stuff
 brew cask install vagrant #vagrant vm provisioning
@@ -81,6 +83,9 @@ brew cask install google-drive
 
 #Office stuff
 brew cask install libreoffice
+
+brew cask install 1password
+
 
 #Instant Messengers
 brew cask install skype
