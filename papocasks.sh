@@ -25,6 +25,9 @@ echo "Updating app lists"
 brew update
 brew upgrade
 
+# so that we can have versions
+brew tap caskroom/versions
+
 brew install bash #v4
 brew install duti #changes default file permissions
 
