@@ -30,6 +30,7 @@ brew tap caskroom/versions
 
 brew install bash #v4
 brew install duti #changes default file permissions
+brew install the_silver_searcher #search https://github.com/ggreer/the_silver_searcher
 
 brew cask install the-unarchiver #uzip and stuff
 brew cask install keka #zip/unzip and much more
@@ -64,6 +65,8 @@ brew cask install iterm2
 brew cask install postman # rest client
 brew cask install docker
 brew install kubectl # kubernetes
+brew install tig
+brew install glances #like top much better
 
 #Containers and stuff
 brew cask install vagrant #vagrant vm provisioning
@@ -88,7 +91,6 @@ brew cask install google-drive
 brew cask install libreoffice
 
 brew cask install 1password
-
 
 #Instant Messengers
 brew cask install skype
