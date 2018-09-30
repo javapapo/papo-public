@@ -36,15 +36,12 @@ brew cask install the-unarchiver #uzip and stuff
 brew cask install keka #zip/unzip and much more
 
 #dev stuff
-brew cask install java
 brew install tree
 brew install coreutils
 brew install wget
 brew install go
 brew install maven
 brew install ant
-brew install jenv
-brew install gradle
 brew install jq #json command line
 brew install asciinema #record terminal sessions
 brew install httpie
@@ -137,4 +134,7 @@ brew cleanup;
 brew cask cleanup;
 
 chsh -s /usr/local/bin/bash;  #change to bash4, remember to add it to iTerm `/usr/local/bin/bash --login`
+
+curl -s "https://get.sdkman.io" | bash
+
 
