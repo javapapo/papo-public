@@ -19,8 +19,6 @@ alias gitprune='git prune'
 #BREW
 alias brewupdateall='brew update;brew upgrade;brew cask update;brew cask cleanup;brew doctor'
 
-#JAVA
-if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 #DOCKER
 alias docker_remove_all_images='docker rmi $(docker images -q)'
