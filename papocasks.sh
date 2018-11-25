@@ -18,6 +18,9 @@ else
     echo "homebrew is installed"
 fi
 
+echo "Install sdkman"
+curl -s "https://get.sdkman.io" | bash
+
 echo "Installing Cask "
 brew install caskroom/cask/brew-cask
 
@@ -40,8 +43,6 @@ brew install tree
 brew install coreutils
 brew install wget
 brew install go
-brew install maven
-brew install ant
 brew install jq #json command line
 brew install asciinema #record terminal sessions
 brew install httpie
@@ -51,7 +52,6 @@ brew cask install intellij-idea
 brew cask install sourcetree # git client
 brew cask install tower
 brew cask install diffmerge #use along with sourcetree
-brew cask install github-desktop #github desktop client
 brew cask install slack #collaboration tool
 brew cask install sublime-text #text editor
 brew cask install macdown #markdown
@@ -91,7 +91,6 @@ brew cask install 1password
 
 #Instant Messengers
 brew cask install skype
-brew cask install adium
 brew cask install whatsapp
 brew cask install goofy #facebook
  
@@ -114,7 +113,6 @@ brew cask install steam #steam client
 
 #macosx specific
 brew cask install alfred #of course alfred!
-brew cask install menumeters #menu meters for mac
 brew cask install appcleaner #install/ uninstall for mac
 brew cask install karabiner #keyboard -shortcut manager for mac
 brew cask install captur
@@ -128,13 +126,9 @@ brew cask install kindle
 
 #remote control
 brew cask install teamviewer
-brew cask install screenhero
+brew cask install zoom
 
 brew cleanup;
 brew cask cleanup;
 
 chsh -s /usr/local/bin/bash;  #change to bash4, remember to add it to iTerm `/usr/local/bin/bash --login`
-
-curl -s "https://get.sdkman.io" | bash
-
-
